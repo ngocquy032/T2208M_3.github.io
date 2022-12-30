@@ -1,0 +1,85 @@
+body{
+    font-family: Arial;
+    font-size: 15px;
+    width: 100%;
+
+
+}
+#main{
+    /*background-color: white;*/
+    /*border: 2px solid #0d0502;*/
+    margin-left: 15%;
+    margin-right: 15%;
+    /*width: auto;*/
+    /*height: auto;*/
+
+
+
+}
+#header{
+    margin: 1px 1px;
+    height: 130px;
+    border: 1px solid #0d0502;
+    width: auto;
+
+}
+.logo{
+    margin: 1px 1px;
+
+    height: 125px;
+    width: 25%;
+    border: 1px solid #0d0502;
+    float: left;
+}
+
+.slogan{
+    height: 125px;
+    width: 74%;
+    /*background-color: white;*/
+    border: 1px solid #0d0502;
+    float: right;
+    margin: 1px 2px;
+}
+#nav{
+    border: 1px solid #4343a9;
+    height: 30px;
+    margin-top: 1px;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    /*padding-right: 10px;*/
+    /*padding-left: 10px;*/
+    clear: both;
+
+
+
+}
+.menu a{
+    color: #f84c53;
+    text-decoration: none;
+    padding: 10px 100px 10px 100px;
+
+}
+.menu a:hover{
+    color: #00bd00;
+}
+#slide{
+    border: 1px solid #0d0502;
+    height: 150px;
+    margin-top: 1px;
+
+}
+#content{
+    border: 1px solid #0d0502;
+    margin-top: 1px;
+    height: 300px;
+
+}
+#footer{
+    border: 1px solid #0d0502;
+    margin-top: 1px;
+    height: 95px;
+
+}
+

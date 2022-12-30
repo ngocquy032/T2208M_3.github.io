@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-1 {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.content-2{
+    /* width: 50%; */
+    /* height: auto; */
+    /* margin: 10%; */
+     margin-left: 20%;
+     margin-right: 20%; 
+    margin-top: 50px; 
+    margin-bottom: 10px;
+
+}
+
+.form-control{
+    border-radius: 5px;
+    height: 60px;
+    margin-top: 20px;
+    /* max-width: 400px; */
+    width: 50%;
+    background-color: white;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+textarea.form-control {
+    height: 100px;
+    padding-top: 12px;
+    margin-top: 30px;
+}
+
+.send-button {
+    /* margin-left: 10%; */
+    /* padding-left: 10%; */
+    /* display: contents; */
+
+    background-color: rgb(246, 94, 94);
+    margin-top: 15px;
+    height: 41px;
+    width: 184px;
+    border-radius: 30px;
+    border: none;
+    /* font-size: 20px; */
+   /* display: inline; */
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+  }
+  
+.alt-send-button {
+    /* font-size: 20px; */
+    /* background-color: red; */
+    /* width: 400px;
+    height: 34px; */
+    /* transition: all .2s ease-in-out; */
+  }
+
+  .send-text {
+   
+    /* margin-top: 10px; */
+    font-size: 16px;
+    /* font: 700 12px 'Lato', sans-serif; */
+    letter-spacing: 2px;
+  }
+
+  .send-button:hover {
+background-color: red;
+  }
+
+/* footer */
+  #footer{
+
+    width: auto;
+    height: auto;
+    background-color: #181D31;
+  }
+  .ft-w-50{
+    margin-left: 10%;
+    padding: 5%;
+  
+  }
+  .fx-20{
+    font-size: 20px;
+  }
+  p{
+    font-size: 18px;
+  }
+  
+  /* .footer-1 img{
+     margin-top: 25px;
+    margin-left: 20px;
+  } */
+  .footer-1{
+    margin-top: 5%;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  
+  }
+  .ct-h2{
+    /* color: white; */
+    /* padding: 15px; */
+    padding-left: 15px;
+  }
+  .a-ads{
+    color: beige;
+    text-decoration: none;
+  }
+  
+  .footer-2{
+    margin-top: 5%;
+    margin-left: 10%;
+    color: white;
+    margin-bottom: 5px;
+  }
+  .pd-t25{
+    padding-top: 25px
+  }
+  .hotline p{
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  
+  .hotline{
+    padding-top: 10px;
+  }
+  
+  .icon a{
+    text-decoration: none;
+  
+  }
+  
+  
+  
+
+
+
+    

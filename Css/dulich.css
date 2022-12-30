@@ -1,0 +1,240 @@
+body{
+    font-family: Arial;
+    font-size: 12px;
+    width: 100%;
+    height: 130px;
+
+
+}#main{
+     width: auto;
+     padding: 0;
+     margin-left:15% ;
+     margin-right:15% ;
+ }
+
+
+#header{
+   width: auto;
+    height: 130px;
+    border: 1px solid #0d0502;
+}
+#logo{
+    height: 130px;
+    width: 25%;
+    border: 1px solid #0d0502;
+    float: left;
+}
+#slogan{
+   height: 130px;
+    width: 74.5%;
+    background-color: white;
+    border: 1px solid #0d0502;
+    float: right;
+}
+
+
+#nav{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #4343a9;
+    background-color: #ffffff;
+    /*margin-bottom: 5px;*/
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+}
+div.menu a{
+    color: #f84c53;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+#slide{
+    width: auto;
+    border: 1px solid #0d0502;
+    height: 150px;
+}
+#content {
+    height: 300px;
+    width: auto;
+    border: 1px solid #910e0e;
+}
+
+.text1 {
+    display: inline-block;
+    height: 145px;
+    width: 49.5%;
+    border-radius: 5px;
+
+    border: 1px solid #0d0502;
+}
+
+.text2{
+
+    height: 145px;
+    width: 49.5%;
+    border: 1px solid #0d0502 ;
+    float: right;
+    border-radius: 5px;
+
+}
+.text3{
+    /*display: inline-block;*/
+    border: 1px solid #0d0502 ;
+    border-radius: 5px;
+    height: 147px;
+    width: 49.5%;
+    float: left;
+
+}
+.text4{
+
+    float: right;
+    height: 147px;
+    width: 49.5%;
+    border: 1px solid #0d0502 ;
+    border-radius: 5px;
+}
+
+.ig1{
+    float: left;
+}
+.ig2{
+    float: left;
+
+
+    /*border-image: inherit;*/
+}
+.ig3{
+    float: left;
+}
+.ig4{
+    float: left;
+    border-radius: 2px;
+
+}
+
+
+
+p{
+    font-size: 110%;
+    text-align: center;
+    color: red;
+}
+
+#footer{
+    color: #4242da;
+    text-align: center;
+    width: auto;
+    border: 1px solid #0d0502;
+    height: 100px;
+
+}
+a{
+    color: #4242da;
+    text-decoration: none;
+}
+a:hover{
+    color: #00bd00;
+}
+
+
+/*a:hover,*/
+/*a.on{*/
+/*    color: #cc3333;*/
+/*    background-color: #00bd00;*/
+/*}*/
+
+div.menu a:hover {
+    color: #00bd00;
+}
+
+* {box-sizing:border-box}
+
+/* / Slideshow container / */
+.slideshow-container {
+    /*max-width: 1000px;*/
+    /*position: relative;*/
+    margin: auto;
+}
+
+/* / Hide the images by default / */
+.mySlides {
+    display: none;
+}
+
+/* / Next & previous buttons / */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* / Position the "next button" to the right / */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* / On hover, add a black background color with a little bit see-through / */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* / Caption text / */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* / Number text (1/3 etc) / */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* / The dots/bullets/indicators / */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* / Fading animation / */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
