@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.information{
+    text-align: center;
+    margin: 20px 0px;
+
+}
+.tab{
+    display: flex;
+    justify-content: center;
+}
+
+.fx-30{
+    font-size: 40px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrapper{
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+h3{
+    margin-top: 10px;
+
+    border-top: dotted;
+    font-size: 30px;
+
+    text-align: center;
+    padding: 10px 20px;
+}
+
+ul.products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul.products li{
+border-radius: 5px;
+    flex-basis: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+
+ul.products li .product-top .product-thumb{
+    display: block;
+}
+
+ul.products li .product-top .product-thumb img{
+    display: block;
+}
+
+ul.products li:hover .product-top .product-thumb img{
+    filter: opacity(80%);
+}
+
+ul.products li .product-top a.buy{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 5px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: -40px;
+    transition: 0.25s ease-in-out;
+    opacity:0.85 ;
+}
+
+ul.products li:hover a.buy{
+    bottom: 0px;
+}
+
+.product-info a{
+    text-decoration: none;
+
+}
+
+a.product-name{
+padding-top: 10px;
+color: black;
+}
+a.product-name:hover{
+    color: red;
+}
+
+.product-price{
+    font-weight: 600;
+}
+#footer{
+
+    width: auto;
+    height: auto;
+    background-color: #181D31;
+}
+.ft-w-50{
+    margin-left: 10%;
+    padding: 5%;
+
+}
+.fx-20{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+
+
+.footer-1{
+    margin-top: 5%;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 10px;
+
+}
+.ct-h2{
+
+    padding-left: 15px;
+}
+.a-ads{
+    color: beige;
+    text-decoration: none;
+}
+
+.footer-2{
+    margin-top: 5%;
+    margin-left: 10%;
+    color: white;
+    margin-bottom: 5px;
+}
+.pd-t25{
+    padding-top: 25px
+}
+.hotline p{
+    font-size: 16px;
+    margin: 0;
+}
+
+.hotline{
+    padding-top: 10px;
+}
+
+.icon a {
+    text-decoration: none;
+}

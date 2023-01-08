@@ -1,0 +1,488 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper1 {
+    width: 100%;
+    height: 74px;
+}
+
+#header {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #292929;
+    background-color: #292929;
+    font-size: 15px;
+    box-shadow: 0 0 30px 1px #292929;
+    position: fixed;
+    z-index: 10;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#menu .item {
+    margin: 0 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#menu .item a {
+    text-decoration: none;
+    padding: 14px 25px;
+    display: block;
+    color: #fff;
+}
+
+#menu .item_menu {
+    padding: 0 15px;
+    position: relative;
+    top: 0;
+}
+
+#menu .item_menu .item_brands {
+    visibility: hidden;
+    position: absolute;
+    background-color: #292929;
+    width: 100%;
+    opacity: 0;
+    transition: 0.25s;
+}
+
+.item_brands .brands a {
+    text-align: left;
+}
+
+#menu>.item:hover>a,
+.item_brands>.brands>a:hover {
+    color: #ff720b;
+    opacity: 0.7;
+}
+
+#menu>.item_menu>.item_brands>.brands>a:hover {
+    color: #ff720b;
+}
+
+#menu>.item_menu:hover>.item_brands {
+    visibility: visible;
+    opacity: 1;
+}
+
+.item a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#search {
+    background: #fff;
+    border-radius: 100px;
+}
+
+#search_text {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0px;
+    font-size: 13px;
+    width: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+#search_btn {
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+#search:hover #search_text,
+#search #search_text:valid {
+    width: 150px;
+    padding: 5px 0px 10px 10px;
+}
+
+#log_in {
+    display: flex;
+}
+
+.user {
+    padding-right: 12px;
+}
+
+.checked {
+    color: orange;
+}
+
+#main {
+    padding: 50px;
+    width: auto;
+    height: auto;
+}
+
+.status {
+    margin-top: -30%;
+    margin-right: 4%;
+    height: auto;
+    float: right;
+    width: 48.5%;
+    font-size: 15px;
+}
+
+.status p {
+    text-align: center;
+
+}
+
+.status h6 {
+    color: red;
+}
+
+p {
+    margin-right: 5px;
+}
+
+.status2 {
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+
+.status2 h3 {
+    margin-left: 40%;
+}
+
+.status2 p,
+h5 {
+    margin-left: 10px;
+}
+
+#wrapper {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+ul {
+    font-size: 20px;
+    list-style: none;
+}
+
+ul.products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.products li {
+
+    border-radius: 5px;
+    flex-basis: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+ul.products li img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.products li .product-top {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.products li .product-top .product-thumb {
+    display: block;
+}
+
+ul.products li .product-top .product-thumb img {
+    display: block;
+}
+
+ul.products li:hover .product-top .product-thumb img {
+    filter: opacity(80%);
+}
+
+ul.products li .product-top a.buy {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #ff720b;
+    color: #fff;
+    padding: 5px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: -40px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+}
+
+ul.products li:hover a.buy {
+    bottom: 0px;
+}
+
+.product-info a {
+    text-decoration: none;
+}
+
+a.product-name {
+    padding-top: 10px;
+    color: black;
+}
+
+a.product-name:hover {
+    color: red;
+}
+
+.product-price {
+    font-weight: 600;
+}
+
+.product-item:hover {
+    border: 2px solid #ff720b;
+}
+
+.product-info {
+    font-weight: 600;
+}
+
+.money {
+    color: red;
+}
+
+.muahang {
+    float: right;
+    height: 5%;
+    width: 30%;
+    margin-top: -16%;
+    margin-right: 35%;
+}
+
+.muahang button {
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+}
+
+.muahang button:hover {
+    background-color: rgb(223, 72, 72);
+}
+
+li {
+    margin-left: 5px;
+}
+
+#footer {
+    border: 1px solid black;
+    width: auto;
+    height: 300px;
+}
+
+.contact {
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 5px;
+    float: left;
+    color: black;
+}
+
+.contact img {
+    float: left;
+}
+
+.contact h5 {
+    text-align: center;
+    color: black;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact a:hover {
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.member {
+    border: 1px solid black;
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5px;
+    height: auto;
+}
+
+li a {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ff720b;
+    text-decoration: underline;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.d-flex-1 .w-40 {
+    width: 30%;
+}
+
+.d-flex-1 {
+    display: flex;
+}
+
+.w-80 {
+    width: 85%;
+}
+
+.mr-t-30 {
+    margin-top: 30px;
+}
+
+.btn-r {
+    border-radius: 5px;
+    background-color: #ff720b;
+    color: white;
+    border: unset;
+    padding: 5px;
+}
+
+.btn-r:hover {
+    background-color: rgb(161, 10, 10);
+}
+
+.ig-pd {
+    padding: 15%;
+    margin-top: -10%;
+}
+
+#footer {
+    width: auto;
+    height: auto;
+    background-color: #181D31;
+}
+
+.ft-w-50 {
+    margin-left: 10%;
+    padding: 5%;
+
+}
+
+.fx-20 {
+    font-size: 20px;
+}
+
+.copyrigth {
+    padding-top: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.footer-1 {
+    margin-top: 5%;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 10px;
+
+}
+
+.ct-h2 {
+
+    padding-left: 15px;
+}
+
+.a-ads {
+    color: beige;
+    text-decoration: none;
+}
+
+.footer-2 {
+    margin-top: 5%;
+    margin-left: 10%;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.pd-t25 {
+    padding-top: 25px
+}
+
+.hotline p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.hotline a {
+    font-size: 18px;
+
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.hotline {
+    padding-top: 10px;
+}
+
+.icon a {
+    text-decoration: none;
+
+}
+
+.d-flex {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hotline>p>a:hover {
+    color: #ff720b;
+}
+
+.footer-logo {
+    padding-left: 60px;
+}
+
+.icon {
+    padding-left: 25px;
+}
+
+ul button {
+    border: 1px solid #2a2a2a;
+    color: #6a6262;
+    width: 12%;
+    height: 30px;
+    border-radius: 21px;
+}
