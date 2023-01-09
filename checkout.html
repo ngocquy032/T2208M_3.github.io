@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./text/checkout.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div id="wrapper-1">
+    <div id="header">
+        <img src="./images/logo.png" alt="" width="8%">
+        <div id="menu">
+            <div class="item">
+                <a href="./index.html">HOME</a>
+            </div>
+            <div class="item item_menu">
+                <a href="#">MENU</a>
+                <div class="item_brands">
+                    <div class="brands">
+                        <a href="./tth-burberry.html">BURBERRY</a>
+                    </div>
+                    <div class="brands">
+                        <a href="./tth-gucci.html">GUCCI</a>
+                    </div>
+                    <div class="brands">
+                        <a href="./tth-dior.html">DIOR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <a href="./men.html">MEN</a>
+            </div>
+            <div class="item">
+                <a href="./nu.html">WOMEN</a>
+            </div>
+            <div class="item">
+                <a href="./about-us.html">ABOUT US</a>
+            </div>
+            <div class="item">
+                <a class="item_bottom" href="./customer-support.html">CUSTOMER SUPPORT</a>
+            </div>
+        </div>
+        <form action id="search">
+            <input type="text" id="search_text" placeholder="Search here..." required>
+            <button id="search_btn">
+                <img src="/images/search-30.png" alt="" height="25px">
+            </button>
+        </form>
+        <div id="log_in">
+            <div class="user">
+                <a href="">
+                    <img src="/images/90e54b0a7a59948dd910ba50954c702e.png" alt="" height="30px">
+                </a>
+            </div>
+            <div class="cart">
+                <a href="">
+                    <img src="/images/b80ad73e5e84aeb71c08e5d8d438eaa1.png" alt="" height="30px">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form >
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Product Name</label>
+            <input class="form-control" type="text" id="fname" name="firstname" value="Burberry brand men's wallet latest version 2022 – DL08">
+
+            <label for="fname"><i class="fa fa-user"></i> Product Code</label>
+            <input class="form-control" type="text" id="fname" name="firstname"  value="DL08">
+
+            <label for="fname"><i class="fa fa-money"></i> Money</label>
+            <input class="form-control" type="text" id="fname" name="firstname"  value="20.000.000 ₫">
+
+
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input class="form-control" type="text" id="name"  name="firstname" onblur="checkName()" required placeholder="John M. Doe">
+            <div id="checkName"></div>
+
+            
+           
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input class="form-control" type="email" id="email" name="email" required placeholder="john@example.com" onblur="checkMail()">
+            <div id="checkEmail"></div>
+
+    
+            <label for="phone"><i class="fa fa-phone"></i> Phone</label>
+            <input class="form-control" type="text" id="phone" name="phone" required placeholder="0123456789" onblur="checkNumber()">
+            <div id="checkphone"></div>
+
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input class="form-control" type="text" id="address" name="address" required placeholder="542 W. 15th Street" onblur="checkAddress()">
+            <div id="checkAddress"></div>
+
+            
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input class="form-control" type="text" id="city" name="city" required placeholder="New York" onblur="checkCity()">
+            <div id="checkCity"></div>
+
+          </div>
+
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit"  onclick="onClickBtnSend()" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+
+</div>
+<div id="footer">
+    <div class="d-flex">
+        <div class="w-50">
+            <div class="footer-1">
+                <div class="footer-logo">
+                    <a href="#"><img src="./images/logo.png" alt="" height="120px"></a>
+                </div>
+                <div class="connect">
+                    <h2 class="ct-h2">
+                        Connect with us
+                    </h2>
+                    <div class="icon">
+                        <a href="#"><img src="./images/facebook.png" width="48px" alt=""> </a>
+                        <a href="#"><img src="./images/twitter.png" alt="" width="48px"> </a>
+                        <a href="#"><img src="./images/youtube.png" alt="" width="48px"> </a>
+                        <a href="#"><img src="./images/instagram.png" alt="" width="48px"> </a>
+                    </div>
+                    <div class="copyrigth">
+                        <p>© Copyright NexTag.All right reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-50">
+            <div class="footer-2">
+                <div class="pay">
+                    <h2 class="pay">Payment type</h2>
+                </div>
+                <div class="icon-pay">
+                    <a href="#"><img src="/images/money.png" alt=""></a>
+                    <a href="#"><img src="/images/atm.png" alt=""></a>
+                    <a href="#"><img src="/images/visa.png" alt=""></a>
+                </div>
+                <div class="address">
+                    <h2 class="pd-t25">Store address</h2>
+                    <div class="detailed-address">
+                        <p>8A, Ton That Thuyet, My Dinh, Tu Liem, Ha Noi.</p>
+                    </div>
+                    <div class="hotline">
+                        <p>Hotline: <a href="tel:1-212-555-5555">0386169003</a></p>
+                        <p class="pd-t-10">Email: <a href="mailto:#">AptechHN.edu.vn</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./javascript/checkout.js"></script>
+
+</body>
+</html>

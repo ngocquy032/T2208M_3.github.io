@@ -11,7 +11,7 @@ let mailMsgInput = document.getElementById('checkEmail');
 const REGEX_MAIL = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
 
 
-function checkName() {
+function checkName(){
   let nameValue = nameInput .value;
   if(nameValue == '') {
     nameMsgInput.textContent = '  Not enough characters please enter more';
@@ -43,4 +43,14 @@ function checkMail(){
 }
 function validateMail(mail){
   return REGEX_MAIL.test(mail);
+}
+
+
+function onClickBtnSend(){
+  console.log('mailMsgInput.textContent: ', !mailMsgInput.textContent);
+  if(mailInput.value != "" && textareaInput.value != "" && nameInput.value != "" ){
+  alert('send support successfully')
+
+  }
+
 }
