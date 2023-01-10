@@ -146,9 +146,14 @@ body {
 
 #checkName,
 #checkTextarea,
-#checkEmail {
+#checkEmail,
+#checkPhone  {
     font-size: 16px;
     color: red;
+}
+
+.text-name{
+    font-size: 16px;
 }
 
 .section-header {
